@@ -5,6 +5,8 @@ block_content: 8.7.8
 breakpoint: 8.7.8
 ckeditor: 8.7.8
 config: 8.7.8
+config_filter: 1.4.0
+config_split: 1.4.0
 consumers: 1.9.0
 contact: 8.7.8
 contact_storage: 1.0.0-beta10
