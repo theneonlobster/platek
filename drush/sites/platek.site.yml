@@ -1,0 +1,9 @@
+local:
+  docker:
+    service: appserver
+    exec:
+      options: --user www-data -e COLUMNS=${DRUSH_COLUMNS}
+  uri: http://platek.lndo.site
+  root: /app
+  paths:
+    drush-script: /app/vendor/drush/drush/drush

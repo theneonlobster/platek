@@ -1,0 +1,7 @@
+name: platek
+recipe: drupal8
+config:
+  webroot: docroot
+services:
+  appserver:
+    overrides: {image: 'acquia/ads-local:lando-php'}

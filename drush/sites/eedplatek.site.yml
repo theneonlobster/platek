@@ -1,0 +1,52 @@
+dev:
+  root: /var/www/html/eedplatek.dev/docroot
+  ac-site: eedplatek
+  ac-env: dev
+  ac-realm: prod
+  uri: eedplatekdev.prod.acquia-sites.com
+  dev.livedev:
+    parent: '@eedplatek.dev'
+    root: /mnt/gfs/eedplatek.dev/livedev/docroot
+  host: eedplatekdev.ssh.prod.acquia-sites.com
+  user: eedplatek.dev
+  paths:
+    drush-script: drush9
+ode4:
+  root: /var/www/html/eedplatek.ode4/docroot
+  ac-site: eedplatek
+  ac-env: ode4
+  ac-realm: prod
+  uri: eedplatekode4.prod.acquia-sites.com
+  ode4.livedev:
+    parent: '@eedplatek.ode4'
+    root: /mnt/gfs/eedplatek.ode4/livedev/docroot
+  host: eedplatekode4.ssh.prod.acquia-sites.com
+  user: eedplatek.ode4
+  paths:
+    drush-script: drush9
+prod:
+  root: /var/www/html/eedplatek.prod/docroot
+  ac-site: eedplatek
+  ac-env: prod
+  ac-realm: prod
+  uri: eedplatek.prod.acquia-sites.com
+  prod.livedev:
+    parent: '@eedplatek.prod'
+    root: /mnt/gfs/eedplatek.prod/livedev/docroot
+  host: eedplatek.ssh.prod.acquia-sites.com
+  user: eedplatek.prod
+  paths:
+    drush-script: drush9
+test:
+  root: /var/www/html/eedplatek.test/docroot
+  ac-site: eedplatek
+  ac-env: test
+  ac-realm: prod
+  uri: eedplatektest.prod.acquia-sites.com
+  test.livedev:
+    parent: '@eedplatek.test'
+    root: /mnt/gfs/eedplatek.test/livedev/docroot
+  host: eedplatektest.ssh.prod.acquia-sites.com
+  user: eedplatek.test
+  paths:
+    drush-script: drush9
